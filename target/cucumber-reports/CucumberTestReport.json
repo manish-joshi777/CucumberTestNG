@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 763648,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before_scenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate free CRM HomePage",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 75069622,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after_scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4897813875,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open browser",
+            "match": {
+              "location": "LoginStepsDefinition.user_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48213417,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepsDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 570282123,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login in app",
+            "match": {
+              "location": "LoginStepsDefinition.user_login_in_app()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11461630,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate homepage title",
+            "match": {
+              "location": "LoginStepsDefinition.validate_homepage_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "/media/manish/data2/IJ/IJ_Projects/CucumberTestNG/src/main/java/feature/freeCRM.feature"
+  }
+]
